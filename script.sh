@@ -69,16 +69,5 @@ while true; do
 		echo $line >> $1
 		echo $line
 	fi
-
-
-#	diff=$(($rssi - $BASE_RSSI))
-#	is_anomaly=$(($diff < -$ANOMALY_DIFF || $diff > $ANOMALY_DIFF))
-#
-
-#
-#	# Output
-#	line="$ts,$rssi,$diff,$is_anomaly"
-#	echo $line >> $1
-#	echo $line
 done
 
